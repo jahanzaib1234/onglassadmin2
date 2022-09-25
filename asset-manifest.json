@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/onglassadmin2/static/css/main.63b77ebb.css",
+    "main.js": "/onglassadmin2/static/js/main.f760fcdf.js",
+    "static/js/787.0c3f432a.chunk.js": "/onglassadmin2/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/onglassadmin2/index.html",
+    "static/media/getFetch.cjs": "/onglassadmin2/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.63b77ebb.css.map": "/onglassadmin2/static/css/main.63b77ebb.css.map",
+    "main.f760fcdf.js.map": "/onglassadmin2/static/js/main.f760fcdf.js.map",
+    "787.0c3f432a.chunk.js.map": "/onglassadmin2/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63b77ebb.css",
+    "static/js/main.f760fcdf.js"
+  ]
+}
