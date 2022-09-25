@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/onglassadmin2/static/css/main.63b77ebb.css",
-    "main.js": "/onglassadmin2/static/js/main.f760fcdf.js",
-    "static/js/787.0c3f432a.chunk.js": "/onglassadmin2/static/js/787.0c3f432a.chunk.js",
-    "index.html": "/onglassadmin2/index.html",
-    "static/media/getFetch.cjs": "/onglassadmin2/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.63b77ebb.css.map": "/onglassadmin2/static/css/main.63b77ebb.css.map",
-    "main.f760fcdf.js.map": "/onglassadmin2/static/js/main.f760fcdf.js.map",
-    "787.0c3f432a.chunk.js.map": "/onglassadmin2/static/js/787.0c3f432a.chunk.js.map"
+    "main.css": "/static/css/main.63b77ebb.css",
+    "main.js": "/static/js/main.081d190e.js",
+    "static/js/787.0c3f432a.chunk.js": "/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.63b77ebb.css.map": "/static/css/main.63b77ebb.css.map",
+    "main.081d190e.js.map": "/static/js/main.081d190e.js.map",
+    "787.0c3f432a.chunk.js.map": "/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b77ebb.css",
-    "static/js/main.f760fcdf.js"
+    "static/js/main.081d190e.js"
   ]
 }
