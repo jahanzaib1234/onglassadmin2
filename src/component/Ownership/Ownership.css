@@ -1,0 +1,144 @@
+.main_owner{
+    position: absolute;
+    width: 77%;
+    height: 85%;
+    left: 23%;
+    top: 15%;
+    z-index: -100;
+}
+
+.main_owner #form1{
+    position:absolute;
+    display: list-item;
+    list-style: none;
+    width: 100%;
+    height: 50%;
+    top: 20%;
+    
+}
+
+.main_owner #ser{
+  position: absolute;
+    width: 20%;
+    height: 10%;
+    font-size: large;
+    top: 20%;
+    left: 8%;
+  
+
+   }
+
+
+    #tex{
+    position: relative;
+    
+    width: 30%;
+    height: 8%;
+    left: 10%;
+   top: 15%;
+border-radius: 25px;
+
+     border: 1px solid #B2B6BB;
+     text-align: center;
+     
+     
+     font-style: normal;
+      
+   }
+   #ser2{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    font-size: large;
+    top: 30%;
+    left: 8%;
+   }
+
+   #rad{
+    position: absolute;
+    width: 7%;
+    height: 4%;
+    font-size: large;
+    top: 30%;
+    left: 42%;
+
+   }
+  
+
+
+   
+
+
+button{
+    position: relative;
+   left: 0%;
+    
+    width: 15%;
+    
+    font-size: 20px;
+    background-color: white;
+    border:.5px dotted;
+    border-radius: 5px;
+    border-color: #ED6C4E;
+    color: #ED6C4E;
+
+    
+}
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1080px) {
+    .main_owner{
+        
+        width: 100%;
+        left: 0%;
+        top: 10%;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:750px) {
+    .main_owner {
+        
+        width: 100%;
+        left:5%;
+        top: 5%;
+        
+    }
+      .main_owner  #form1 {
+        position: absolute;
+        margin-left: -5%;
+        left: 0%;
+        height:35%;
+        width: 99%;
+    }
+    .main_owner #form1  #ser{
+        top:0%;
+    left: 0%;
+    margin-left: -18%;
+        width: 75%;
+        float:left;
+font-size: 4vw
+    
+       }
+       .main_owner #form1  #tex{
+        width: 70%;
+    height: 8%;
+    left: 6%;
+   top: 15%;
+       }
+       .main_owner #form1  #ser2{
+        width: 50%;
+        left:-5%;
+       }
+       #btnn{
+      position: absolute;
+        left: -30%;
+        
+        width:50%;
+       height: 4%;
+       
+    
+        
+       }
+}

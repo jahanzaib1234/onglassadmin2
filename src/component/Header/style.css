@@ -1,0 +1,98 @@
+.navbar{
+    position: absolute; 
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.13%;
+    background-color: white;
+    height: 14.87%;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    width: 100%;
+  
+
+}
+
+
+.navbar img{
+   position: absolute;
+   width: 14%;
+   left: 2.25%;
+   right: 87.5%;
+   top: 29%;
+   bottom: 90.85%;
+
+    
+    }
+
+
+  #name{
+
+position: absolute;
+left: 25%;
+top:45%;
+text-align: right;
+align-content: center;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+width: 60%;
+
+border:none;
+/* identical to box height */
+
+/* border: 1px solid; */
+color: #293242;
+
+  }
+
+  #picture{
+    position: absolute;
+left: 86%;
+right: 8.09%;
+top: 40%;
+bottom: 88.75%;
+border-radius: 25px;
+background-color: #293242;
+width: 50px;
+height: 50px;
+overflow: hidden;
+  }
+
+  #picture img{
+    width: 100%;
+  }
+
+  #Dropdownn{
+   position: absolute;
+   width: 3%;
+   right: 3%;
+   top: 49.52%;
+   bottom: 43.21%;
+   cursor: pointer;
+}
+#Dropdownn img{
+  width: 50%;
+}
+#Dropdownn ul{
+  
+  position: absolute;
+  left: -80%;
+  top:70%;
+  list-style: none;
+  cursor: pointer;
+  display: none;
+  float: left;
+  
+}
+#Dropdownn:hover ul{
+  display: block;
+}
+@media screen and (min-width:750px) and (max-width:1080px) {
+  .navbar{
+      height: 12%;
+      width: 100%;
+  }
+}
+   

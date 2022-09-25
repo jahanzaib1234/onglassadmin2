@@ -1,0 +1,256 @@
+.main{
+    position: absolute; 
+    width: 77%;
+    height: 85%;
+    left: 23%;
+    top: 15%;
+    z-index: 100;
+    background-color: white;
+ }
+ .main ul{
+    position: relative;
+    list-style: none;
+    gap: 10rem;
+   top: 8%;
+    display: list-item;
+ }
+    
+ .main ul li{
+    position: relative;
+        background-color: #293242;
+        gap: 10rem;
+        
+       top: 15%;
+       left: 0%;
+       /* left: 2%; */
+        width: 35%;
+        height: 13vh;
+        text-align: center;
+        font-family: 'Josefin Sans';
+        filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.22));
+        border: 2px solid white;
+        z-index: 100;
+        
+        }
+
+        .main ul li #avatar{
+    position: relative;
+    width: 15%;
+    height: 50%;
+    left: 3%;
+    top: 20%;
+    background-color: white;
+
+}
+.main ul li #avatar img{
+    position: relative;
+    top: 18%;
+}
+.main ul li h3{
+    position: absolute;
+    
+    bottom: 18%;
+    left: 25%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+}
+
+#account{
+    position: relative;
+    left: 37.5%;
+    width: 60%;
+    height: 35%;
+    /* bottom: 26%; */
+bottom: 26%;
+
+
+    background-color: #293242;
+
+    /* background-color:black; */
+border: 2px solid white;
+}
+#group5 input{
+    position: relative;
+    margin-top: 25%;
+    left: 9%;
+    width: 30%;
+    height: 55%;
+    font-size: x-large;
+    background: #0095FA;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+height: 40%;
+
+}
+
+#group6 label {
+
+    position: absolute;
+    color: #A3ACBD;
+    top: 35%;
+    left: 3.5%;
+    font-family: 'Josefin Sans';
+
+}
+#group6 input{
+    position: absolute;
+    top: 48%;
+    left: 3%;
+    
+    width: 100%;
+    height: 35%;
+    font-size: 15px;
+    background: #FFFFFF;
+    color: #A3ACBD;
+    width: 35%;
+    height: 25%;
+
+
+}
+
+
+#profile{
+    position: relative;
+    left: 37.5%;
+    width: 60%;
+    height: 50%;
+    /* bottom: 26%; */
+bottom: 26%;
+
+
+    background-color: #293242;
+
+    /* background-color: yellow; */
+
+}
+
+h2{
+    position: absolute;
+    left: 3%;
+    color: #FFFFFF;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+}
+#group1{
+
+/* background-color: blue; */
+
+position: absolute;
+top: 20%;
+left: 3%;
+width: 42%;
+height: 30%;
+}
+
+#group1  label  {
+position: absolute;
+color: #A3ACBD;
+top: 25%;
+left: 2%;
+font-family: 'Josefin Sans';
+}
+ #group1 input {
+    position: relative;
+    top: 65%;
+    left: 3%;
+    font-size: large;
+    background: #FFFFFF;
+    color: #A3ACBD;
+    width: 80%;
+    height: 25%;
+    
+}
+
+#group2{
+
+     /* background-color: brown;  */
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 42%;
+    height: 30%;
+    }
+
+    #group2 label {
+        position: absolute;
+        color: #A3ACBD;
+top: 20%;
+left: 2%;
+font-family: 'Josefin Sans';
+
+    }
+    #group2 input{
+        position: relative;
+        top: 60%;
+        left: 3%;
+        font-size: large;
+        background: #FFFFFF;
+        color: #A3ACBD;
+    width: 80%;
+    height: 25%;
+
+    }
+
+    #group3{
+
+         /* background-color:tomato;  */
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        width: 42%;
+        height: 30%;
+        }
+    
+    #group3 label{
+        position: absolute;
+        color: #A3ACBD;
+        top: 20%;
+        left: 2%;
+        font-family: 'Josefin Sans';
+
+    }
+    #group3 input{
+        position: relative;
+        top: 60%;
+        left: 3%;
+        font-size: large;
+        background: #FFFFFF;
+        color: #A3ACBD;
+    width: 80%;
+    height: 25%;
+    }
+
+    #group4{
+        position: absolute;
+        top: 60%;
+        left: 42%;
+        width: 55%;
+        height: 30%;
+        /* background-color: brown; */
+
+    }
+
+#group4 input{
+        position: relative;
+        top: 78%;
+        left: 35%;
+        width: 50%;
+        font-size: x-large;
+        background: #0095FA;
+        color: #FFFFFF;
+        font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+height: 40%;
+
+    }
+
+
+

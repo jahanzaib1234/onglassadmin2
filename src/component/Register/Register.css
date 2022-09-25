@@ -1,0 +1,516 @@
+
+
+.main_div_register{
+position: absolute;
+left: 19.55%;
+right: 19.59%;
+/* top: 19.73%; */
+/* bottom: 19.74%; */
+top: 12%;
+/* bottom: 1%; */
+background: #3F4C83;
+/* width: 72%; */
+/* height: 75%; */
+height: 70%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main_div_register #first_div{
+    position: absolute;
+    left: 0%;
+    right: 44.08%;
+     /* width:56.02%;  */
+     width: 52%;
+
+        top: 0%;
+    bottom: 0%;
+    
+    background: #3F4C83;
+}
+
+.main_div_register #first_div #welcome{
+    position: absolute;
+    /* left: 7.89%; */
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    /* right: 0.77%; */
+    top: 43.42%;
+    bottom: 51.7%;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    /* font-size: 30px; */
+    font-size: 2.7vw;
+
+    /* font-weight: 200; */
+    /* identical to box height */
+    
+    
+    color: #FEFEFE;
+}
+
+.main_div_register #first_div img{
+
+    position: absolute;
+    /* width: 100%; */
+    /* height: 75vh; */
+    left: -6%;
+    height: 90%;
+    width: 100%;
+    bottom: 0%;
+    top: 25%;
+    /* height: 75vh; */
+
+
+}
+
+
+
+
+.main_div_register img{
+    position: absolute;
+    width: 68rem;
+    height: 64rem;
+    left: -5%;
+    top: 17%;
+    
+}
+
+
+.main_div_register .second_div{
+    position: absolute;
+    left: 56.02%;
+    right: 0%;
+    width: 44.08%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FEFEFE;
+}
+
+.main_div_register .second_div #heading1{
+position: absolute;
+left: 5%;
+right: 5%;
+/* top: 20.17%; */
+top: 2%;
+bottom: 62.25%;
+width: 90%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #293242;
+}
+
+
+.main_div_register .second_div #user_name_div{
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    height: 4rem;
+    right: 20%;
+    /* top: 35.28%; */
+    top: 20%;
+    bottom: 52.9%;
+    /* background: #E8E6FF; */
+    border-radius: 25px;
+background-color: #3F4C83;
+}
+  #fname{
+    position: absolute;
+    left: 7.5%;
+    top: 9.5%;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(84, 83, 85);
+}
+
+ #finput{
+    
+   position: absolute;
+    width: 88%;
+    height: 3rem;
+    left: 6%;
+    top: 14%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    color: #363636;
+    background: #E8E6FF;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+#lname{
+
+    position: absolute;
+    left: 7.5%;
+    top: 23%;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(84, 83, 85);
+
+}
+
+#linput{
+    position: absolute;
+    width: 88%;
+    height: 3rem;
+    left: 6%;
+    top: 27%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    color: #363636;
+    background: #E8E6FF;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#ename{
+    position: absolute;
+    left: 7.5%;
+    top: 36%;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(84, 83, 85);
+}
+#einput{
+    position: absolute;
+    width: 88%;
+    height: 3rem;
+    left: 6%;
+    top: 40%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    color: #363636;
+    background: #E8E6FF;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+#pname{
+
+    position: absolute;
+    left: 7.5%;
+    top: 48%;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(84, 83, 85);
+}
+#pinput{
+
+    position: absolute;
+    width: 88%;
+    height: 3rem;
+    left: 6%;
+    top: 52%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    color: #363636;
+    background: #E8E6FF;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#cname{
+    position: absolute;
+    left: 7.5%;
+    top: 60%;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(84, 83, 85);
+}
+
+#cinput{
+    position: absolute;
+    width: 88%;
+    height: 3rem;
+    left: 6%;
+    top: 64%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    color: #363636;
+       background: #E8E6FF;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.second_div #password_div{
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    height: 4rem;
+    right: 20%;
+    /* top: 45.28%; */
+    top: 50%;
+    bottom: 52.9%;
+    background: #E8E6FF;
+    border-radius: 25px;
+}
+
+.second_div #password_div img{
+    width: 2rem;
+    height: 2rem;
+    left: 5%;
+}
+
+.main_div_register .button_div{
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    /* top: 65.28%;   */
+    top: 75%;
+    
+}
+
+.button_div #button{
+    position: absolute;
+    background: #293242;
+    color: white;
+    font-size: 2rem;
+    border: none;  
+    border-radius: 25px;
+    height: 3rem;
+    width: 35%; 
+    left: 32.5%;
+    right: 32.5%;
+}
+#image_div{
+    position: absolute;
+    top: 83%;
+    width: 30%;
+    height: 10%;
+    left: 5%;
+
+}
+#image_div img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    
+     }
+
+
+ #lan_div {
+
+        position: relative;
+        top: 88%;
+        
+        left: 60%;
+        width: 35%;
+     
+
+     }
+
+     #lan_div #ch{
+        
+        position: relative;
+        top: 3%;
+        font-size: small;
+
+     }
+     #lan_div #drop{
+
+        position: relative;
+        border: none;
+     }
+
+
+.bottom{
+    position: absolute;
+    left: 5.75%;
+    right: 31.99%;
+    top: 82.08%;
+    bottom: 23.22%;
+    width: 100%;
+}
+.bottom img{
+    width: 22rem;
+    height: 7rem;
+}
+.change_lang_div{
+    position: absolute;
+    left:60%;
+    margin-top: 7%;
+}
+
+
+.dropdown-content li:hover {background-color: #ddd;}
+
+.change_lang_div:hover .dropdown-content ul {display: block;}
+
+
+
+
+                    @media screen  and (min-width:1080px) and (max-width:1350px) {
+        
+    
+                        .main_div_register{
+                            left: 10%;
+                            right: 10%;
+                            bottom: 10%;
+                            top: 10%;
+                        }
+                       
+                       
+                            #lan_div{
+
+                                position:absolute ;
+                                top: 92%;
+                               
+                                
+                            }
+                            
+                    
+                        
+                        }
+                    
+
+                        @media screen  and (min-width:750px) and (max-width:1080px) {
+        
+    
+                            .main_div_register{
+                                left: 5%;
+                                right: 5%;
+                                bottom: 5%;
+                                top: 5%;
+                            }
+                            .main_div_register #first_div img{
+                    
+                                left: 0%;
+                                height: 60%;
+                                width: 100%;
+                                top:35%;
+                              
+                            }
+                            .main_div_register #first_div #welcome{
+                      
+                                left: 0%;
+                                right:0%;
+                                width:100%;
+                                font-size: 4.5vw;
+                           
+                            }
+                            .main_div_register     .button_div #button{
+                                
+                                height: 3rem;
+                                width: 60%;
+                                left: 20%;
+                                right: 20%; 
+                             
+                            }
+                            .main_div_register    .second_div #heading1{
+                            width: 50%;
+                            left: 25%;
+                            right: 25%;
+                            
+                            }
+                            }
+                    
+                    
+
+                            @media screen  and (min-width:100px) and (max-width:750px) {
+        
+                                .main_div_register{
+                                   background-color: transparent;
+                                   top: 0%;
+                                   left: 0%;
+                                   right: 0%;
+                                   bottom: 0%;
+                                   width: 100%;
+                                   height: 100%;
+                                   
+                                }
+                               
+                                .main_div_register #first_div {
+                        
+                                   display: none;
+                                  
+                                }
+                                .main_div_register    .second_div {
+                                    width: 100%;
+                                    left: 0%;
+                                    height: 100%;
+                                    top: 0%;
+
+                    
+
+                                }
+                                .main_div_register   .second_div #heading1{
+                                    width: 90%;
+                                    left: 5%;
+                                    right: 5%;
+                                    top: 3%;
+                                    
+                                    }
+                                    .main_div_register   .button_div #button{
+                                
+                                        height: 3rem;
+                                        width: 70%;
+                                        left: 15%;
+                                        right: 15%; 
+                                     
+                                    }
+                                    .main_div_register    #lan_div{
+
+                                        position:absolute ;
+                                        top: 92%;
+                                       
+                                        
+                                    }
+                                    
+                                    .main_div_register    #image_div{
+                                    /* position: absolute;
+                                    border: 1px solid;
+                                    height: 12vh;
+                                    width: 100%; */
+                                    position: relative;
+                                    top: 88%;
+                                    
+                                    left: 5%;
+                                    width: 40%;
+                                    height: 10%;
+                                    
+                                }
+
+                                .main_div_register     #image_div img{
+                                       
+                                        position: absolute;
+                                        top: 0%;
+                                        bottom: 0%;
+                                        padding: 0%;
+                                        margin: 0%;
+                                        left: 0%;
+                                        right: 0%;
+                                       width: 100%;
+                                      
+                                       height: 100%;
+                                       
+                                        
+                                        
+                                         }
+                                    
+
+                                
+                                }
+                        
+                        

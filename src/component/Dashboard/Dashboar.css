@@ -1,0 +1,128 @@
+ 
+ .main_Dash{
+    position: absolute;
+    width: 77%;
+    height: 85%;
+    left: 23%;
+    top: 15%;
+    z-index: -100;
+ }
+ 
+ .test{
+    
+    position: relative;
+    display: flex;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    gap: 2%;
+} 
+ #first{
+
+  
+position: inherit;
+background-color: #293242;
+/* bottom: 90%;
+right: 60%; */
+width: 23.5%;
+height: 20vh;
+text-align: center;
+font-family: 'Josefin Sans';
+filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.22));
+
+
+}
+h1 { 
+    color: #FFFFFF;
+    /* font-family: 'Josefin Sans'; */
+font-style: normal;
+/* border: 1px solid violet; */
+/* line-height: 90px; */
+font-weight: bolder;
+
+margin-top: 15%;
+}
+#first span {
+    
+   position: absolute; 
+    color: #FFFFFF;
+    left: 25%;
+    right: 25%;
+    top: 15vh;
+        
+   
+
+
+}
+
+
+#first #screen{
+    position: absolute;
+   float: left;
+   width: 22%;
+   left: 5%;
+   top: 50%;
+}
+
+
+
+#first #why{
+    position: absolute;
+float: right;
+right: 5%;
+top: 5%;
+
+}
+
+.map{
+    position: relative;
+    width: 90%;
+    height: 60%;
+    top: 12%;
+    left: 5%;
+    right: 5%;
+    filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.22));
+}
+
+
+
+@media screen and (min-width:750px) and (max-width:1080px) {
+    .main_Dash{
+        
+        width: 100%;
+        left: 0%;
+        top: 10%;
+    }
+}
+
+@media screen   and (min-width:100px) and (max-width:749px) {
+
+
+    .main_Dash{
+        
+        width: 100%;
+        left: 0%;
+        top: 8%;
+    }
+
+
+    .test{
+    
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 90%;
+        left: 3.5%;
+    }
+    .test #first{
+        width: 100%;
+        height: 17vh;
+    }
+    .map{
+        width: 100%;
+        left: 0%;
+        right: 0%;
+       
+    }
+
+}

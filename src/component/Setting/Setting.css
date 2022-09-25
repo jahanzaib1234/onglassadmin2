@@ -1,0 +1,456 @@
+ .setting_main{
+    position: absolute; 
+    width: 77%;
+    height: 85%;
+    left: 23%;
+    top: 15%;
+    z-index: 100;
+    background-color: white;
+ }
+ .setting_main ul{
+    position: relative;
+    list-style: none;
+    gap: 10rem;
+   top: 8%;
+    display: list-item;
+ }
+    
+ .setting_main ul li{
+    position: relative;
+        background-color: #293242;
+        gap: 10rem;
+        
+       top: 15%;
+       left: 0%;
+       /* left: 2%; */
+        width: 35%;
+        height: 13vh;
+        text-align: center;
+        font-family: 'Josefin Sans';
+        filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.22));
+        border: 2px solid white;
+        z-index: 100;
+        color: #FFFFFF;
+        
+        }
+        .setting_main ul li:hover{
+            cursor: pointer;
+            background-color: #222736;
+            color: #ED6C4E;
+        }
+        .setting_main ul li #avatar{
+    position: relative;
+    width: 15%;
+    height: 50%;
+    left: 3%;
+    top: 20%;
+    background-color: white;
+
+}
+.setting_main ul li #avatar img{
+    position: relative;
+    top: 18%;
+}
+.setting_main ul li h3{
+    position: absolute;
+    
+    bottom: 18%;
+    left: 25%;
+    
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+}
+#profile{
+    position: relative;
+    left: 38%;
+    width: 60%;
+    height: 50%;
+    bottom: 26%;
+    background-color: #293242;
+
+    /* background-color: yellow; */
+
+}
+
+h2{
+    position: absolute;
+    left: 3%;
+    color: #FFFFFF;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+}
+#group1{
+
+/* background-color: blue; */
+
+position: absolute;
+top: 20%;
+left: 3%;
+width: 42%;
+height: 30%;
+}
+
+#group1  label  {
+position: absolute;
+color: #A3ACBD;
+top: 25%;
+left: 2%;
+font-family: 'Josefin Sans';
+}
+ #group1 input {
+    position: relative;
+    top: 65%;
+    left: 3%;
+    width: 100%;
+    background: #FFFFFF;
+    height: 35%;
+    font-size: 15px;
+    
+}
+
+#group2{
+
+    /* background-color: brown; */
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    width: 42%;
+    height: 30%;
+    }
+
+    #group2 label {
+        position: absolute;
+        color: #A3ACBD;
+top: 25%;
+left: 2%;
+font-family: 'Josefin Sans';
+
+    }
+    #group2 input{
+        position: relative;
+        top: 65%;
+        left: 3%;
+        background: #FFFFFF;
+        width: 100%;
+        height: 35%;
+        font-size: 15px;
+
+    }
+    #group2 #alert {
+        position: relative;
+        top:85%;
+        left: 3%;
+        width: 100%;
+        color: orangered;
+        height: 35%;
+        font-size: 15px;
+        
+    }
+    #group2 #alert1 {
+        position: relative;
+        top:85%;
+        left: 3%;
+        width: 100%;
+        color: green;
+        height: 35%;
+        font-size: 15px;
+        
+    }
+    #group3{
+
+        /* background-color:tomato; */
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        width: 42%;
+        height: 30%;
+        }
+    
+    #group3 label{
+        position: absolute;
+        color: #A3ACBD;
+        top: 25%;
+        left: 2%;
+        font-family: 'Josefin Sans';
+
+    }
+    #group3 input{
+        position: relative;
+        top: 65%;
+        left: 3%;
+        width: 100%;
+        background: #FFFFFF;
+        height: 35%;
+        font-size: 15px;
+    }
+
+    #group4{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        width: 42%;
+        height: 30%;
+        /* background-color: brown; */
+
+    }
+
+#group4 input{
+        position: relative;
+        top: 65%;
+        left: 56%;
+        width: 50%;
+        font-size: x-large;
+        background: #0095FA;
+        color: #FFFFFF;
+        font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+height: 40%;
+
+    }
+
+    #account{
+        position: relative;
+        left: 37.5%;
+        width: 60%;
+        height: 35%;
+        /* bottom: 26%; */
+    bottom: 26%;
+    
+    
+        background-color: #293242;
+    
+        /* background-color:black; */
+    border: 2px solid white;
+    }
+    #group5 input{
+        position: absolute;
+        top: 80%;
+        right: 10%;
+        width: 32%;
+        
+        font-size: large;
+        background: #0095FA;
+        color: #FFFFFF;
+        font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    height: 15%;
+    
+    }
+    
+    #group6 label {
+    
+        position: absolute;
+        color: #A3ACBD;
+        top: 35%;
+        left: 3.5%;
+        font-family: 'Josefin Sans';
+    
+    }
+    #group6 input{
+        position: absolute;
+        top: 48%;
+        left: 3%;
+        
+        width: 35%;
+        height: 10%;
+        font-size: 15px;
+        background: #FFFFFF;
+        color: #A3ACBD;
+        border: none;
+        
+    
+    
+    }
+    
+
+
+
+    @media screen and (min-width:750px) and (max-width:1080px) {
+        .setting_main{
+            
+            width: 100%;
+            left: 0%;
+            top: 15%;
+        }
+        .setting_main ul{
+            right: 2%;
+        }
+    }
+
+    @media screen and (min-width:100px) and (max-width:749px) {
+        .setting_main{
+            
+            width: 100%;
+            left: 0%;
+            top: 15%;
+        }
+        .setting_main ul{
+            width: 75%;
+            top: 1%;
+
+        } 
+        .setting_main ul li{
+            position: relative;
+                background-color: #293242;
+                /* gap: 10rem; */
+                
+               /* top: 15%; */
+               left: 0%;
+               /* left: 2%; */
+                width: 100%;
+                height: 9vh;
+                
+               
+               
+               
+                
+                
+                }
+
+        #profile{
+            position: relative;
+            left: 1%;
+            width: 96%;
+            height: 70%;
+            bottom: 0%;
+      
+           
+
+        }
+        #group1{
+           width: 75%;
+        }
+
+        #group1  label  {
+           
+          
+            top: 1%;
+            left: 2%;
+          
+            }
+             #group1 input {
+               
+                top: 17%;
+                left: 3%;
+                width: 100%;
+                background: #FFFFFF;
+                height: 25%;
+                font-size: 15px;
+                
+            }
+
+            #group2{
+
+                /* background-color: brown; */
+              
+                top: 30%;
+                left: 2%;
+                width: 75%;
+                height: 30%;
+               
+                }
+            
+                #group2  #Second {
+                
+                position: absolute;
+                top: 22%;
+                left: 1%;
+        ;
+      
+        
+            }
+            #group2 input{
+                position: relative;
+                top: 38%;
+                left: 3%;
+                
+                width: 100%;
+                height: 25%;
+           
+            }
+            #group3{
+
+                /* background-color:tomato; */
+               
+                top: 50%;
+                left: 3%;
+                width: 75%;
+              
+               
+                }
+            
+            #group3 label{
+              
+               
+                top: 13%;
+                left: 2%;
+                
+        
+            }
+            #group3 input{
+                position: relative;
+                top: 30%;
+                left: 3%;
+                width: 100%;
+                height: 25%;
+               
+            }
+            #group4 input{
+               
+                top: 50%;
+                left: 0%;
+                width: 70%;
+                font-size: x-large;
+                background: #0095FA;
+                color: #FFFFFF;
+                font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        height: 40%;
+        
+            }
+
+
+        #account{
+            position: relative;
+            left: 1%;
+            width: 96%;
+            height: 70%;
+            bottom: 0%;
+
+        }
+        #account #group6{
+
+            
+        }
+       
+        #group6 input{
+         
+            
+            width: 75%;
+            height: 10%;
+        
+        }
+        #group5 input{
+            
+            top: 80%;
+            right: 10%;
+            width: 42%;
+            
+            font-size: large;
+            background: #0095FA;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        height: 10%;
+        
+        }
+
+    }
